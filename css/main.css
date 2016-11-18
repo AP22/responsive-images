@@ -1,0 +1,192 @@
+/**************************************************
+Fonts
+Droid Serif
+Droid Sans
+Droid Sans Mono
+
+Font Scaling
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1.0rem
+0.618rem
+
+Colour scheme
+
+**************************************************/
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif|Oswald';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Droid Sans', 'more font stack stuff', sans-serif;
+	background-size: cover;
+	background-color: #CCD4D4;
+}
+/*************************** 
+DEFAULTS - MOBILE FIRST 
+***************************/
+h1{
+    font: bold 3.236rem 'Oswald', 'more font stack stuff', serif;
+	text-align:center;
+}
+h2{
+    font: bold 2.618rem 'Oswald', 'more font stack stuff', serif;
+}
+li, p, a{
+    font: bold 0.8rem 'Droid Sans', 'more font stack stuff', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+}
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+
+	background-color: #ADA8A1;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100px;
+}
+
+ul{
+	margin: auto;
+	list-style-type: none;
+	padding: 10px;
+}
+
+li{
+	padding: 10px;
+}
+
+main{
+    width: 100%;
+}
+
+picture{
+	max-width: 90%;
+}
+
+img{
+	max-width: 90%;
+}
+
+.col1{
+    float: none;
+    width: 100%;
+}
+
+
+.col2{
+	float:none;
+	width: 100%;
+}
+
+
+.col3{
+	float:none;
+	width: 100%;
+}
+
+
+.col4{
+	float:none;
+	width: 100%;
+}
+
+
+footer{
+	clear: both;
+	width: 100%;
+}
+
+@media screen and (min-width:600px){
+	
+h1{
+	font: bold 3.8rem 'Oswald', 'more font stack stuff', serif;
+	
+}
+	
+main{
+	width: 90%;
+	margin: auto;
+	min-height: 500px;
+}
+	
+.col1{
+	margin: 0;
+    float: left;
+    width: 50%;
+}
+
+.col2{
+	margin: 0;
+	float:right;
+	width: 50%;
+}
+
+
+.col3{
+	margin: 0;
+	float:right;
+	width: 50%;
+}
+
+
+.col4{
+	margin: 0;
+	float:right;
+	width: 50%;
+}
+
+}
+@media screen and (min-width: 1200px){
+	
+h1{
+	font: bold 3.818rem 'Oswald', 'more font stack stuff', serif;
+}
+	
+main{
+	width: 70%;
+	margin: auto;
+}
+	
+.col1{
+	margin: 0;
+    float: left;
+    width: 25%;
+}
+
+.col2{
+	margin: 0;
+	float:left;
+	width: 25%;
+}
+
+
+.col3{
+	margin: 0;
+	float:left;
+	width: 25%;
+}
+
+
+.col4{
+	margin: 0;
+	float:right;
+	width: 25%;
+}
+
+}

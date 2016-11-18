@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Images</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <header class="masthead" role="banner">
+            <h1>Responsive Images</h1>
+            <!-- the header needs a background image that fills the whole header -->
+        </header>
+        <main class="main">
+            <ul class="col1">
+				<li><picture><source srcset="./images/img1_m.jpg" media="(min-width: 600px)"><source srcset="./images/img1.jpg" media="(min-width: 1200px)"><img src="./images/img1_s.jpg"></picture></li>
+				<li><picture><source srcset="./images/img2_m.jpg" media="(min-width: 600px)"><source srcset="./images/img2.jpg" media="(min-width: 1200px)"><img src="./images/img2_s.jpg"></picture></li>
+            </ul>
+            <ul class="col2">
+				<li><picture><source srcset="./images/img3_m.jpg" media="(min-width: 600px)"><source srcset="./images/img3.jpg" media="(min-width: 1200px)"><img src="./images/img3_s.jpg"></picture></li>
+				<li><picture><source srcset="./images/img4_m.jpg" media="(min-width: 600px)"><source srcset="./images/img4.jpg" media="(min-width: 1200px)"><img src="./images/img4_s.jpg"></picture></li>
+            </ul>
+			<ul class="col3">
+				<li><picture><source srcset="./images/img5_m.jpg" media="(min-width: 600px)"><source srcset="./images/img5.jpg" media="(min-width: 1200px)"><img src="./images/img5_s.jpg"></picture></li>
+				<li><picture><source srcset="./images/img6_m.jpg" media="(min-width: 600px)"><source srcset="./images/img6.jpg" media="(min-width: 1200px)"><img src="./images/img6_s.jpg"></picture></li>
+            </ul>
+			<ul class="col4">
+				<li><picture><source srcset="./images/img7_m.jpg" media="(min-width: 600px)"><source srcset="./images/img7.jpg" media="(min-width: 1200px)"><img src="./images/img7_s.jpg"></picture></li>
+            </ul>
+        </main>
+        <footer class="footer" role="contentinfo">
+            <p>&copy; 2016 APV</p>
+            <p>All images used belong to:</p>
+			<p>Markus Spiske</p>
+			<p>Yinan Chen</p>
+			<p>Fahim Akhter</p>
+        </footer>
+    </div>
+</body>
+</html>
